@@ -1,0 +1,47 @@
+{
+  "name": "testcontainers-minio",
+  "author": "Yubin, Hsu",
+  "version": "0.0.1",
+  "main": "dist/minio-container",
+  "types": "dist/minio-container",
+  "keywords": [
+    "testcontainers",
+    "minio",
+    "docker",
+    "container"
+  ],
+  "files": [
+    "dist/minio-containers.js",
+    "dist/minio-containers.d.ts"
+  ],
+  "description": "A Testcontainers implementation for Minio",
+  "license": "MIT",
+  "homepage": "https://github.com/yubinTW/testcontainers-minio",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yubinTW/testcontainers-minio"
+  },
+  "bugs": {
+    "url": "https://github.com/yubinTW/testcontainers-minio/issues"
+  },
+  "scripts": {
+    "build": "tsc",
+    "test": "jest --coverage --runInBand --detectOpenHandles",
+    "fix-prettier": "prettier --write \"./src/**/*.ts\""
+  },
+  "dependencies": {
+    "@types/minio": "^7.0.13",
+    "minio": "^7.0.28",
+    "qs": "^6.10.5",
+    "testcontainers": "^8.10.1"
+  },
+  "devDependencies": {
+    "@types/jest": "^18.1.1",
+    "@types/node": "^17.0.41",
+    "@types/qs": "^6.9.7",
+    "jest": "^28.1.1",
+    "prettier": "^2.6.2",
+    "ts-jest": "^28.0.4",
+    "typescript": "^4.7.3"
+  }
+}
