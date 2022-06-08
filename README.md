@@ -1,10 +1,16 @@
 # Testcontainers-Minio
 
-A testcontainers for Minio
+A testcontainers implementation for Minio
 
 https://www.npmjs.com/package/testcontainers-minio
 
-Integrate testcontainers of minio and [minio-js](https://github.com/minio/minio-js)
+Integrate [testcontainers](https://github.com/testcontainers/testcontainers-node) of minio and [minio-js](https://github.com/minio/minio-js)
+
+## Installation
+
+```
+npm i -D testcontainers-minio
+```
 
 ## Usage
 
